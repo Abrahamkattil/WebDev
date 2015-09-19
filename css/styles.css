@@ -1,0 +1,42 @@
+*{
+	outline: 1px #5C5C3D solid;
+}
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-mos-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+	p{
+		background-color: #CCFF99;
+		color: blue;
+	}
+}
+
+body{
+	margin: 0px;
+}
+header{
+	padding: 0px 6%;
+}
+
+.grid{
+	padding: 15px 10%;
+}
+
+.row{
+	width: 100%;
+	display: flex;  /* <-- check it out*/
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-6{
+	width: 50%;
+}
+
